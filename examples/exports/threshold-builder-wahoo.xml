@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wahooWorkout>
+  <name>Threshold Builder</name>
+  <segment type="warmup" seconds="600" targetPct="50" />
+  <segment type="interval_steady" seconds="480" targetPct="95" />
+  <segment type="interval_ramp" seconds="240" targetPct="90" />
+  <segment type="cooldown" seconds="420" targetPct="70" />
+</wahooWorkout>

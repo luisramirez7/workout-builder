@@ -1,0 +1,15 @@
+{
+  "name": "@workout-builder/plugins-cycling-structured",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@workout-builder/core": "0.1.0",
+    "@workout-builder/exporter-zwift": "0.1.0",
+    "@workout-builder/exporter-garmin": "0.1.0",
+    "@workout-builder/exporter-wahoo": "0.1.0"
+  }
+}

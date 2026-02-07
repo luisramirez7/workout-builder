@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workout_file>
+  <author>Workout Builder</author>
+  <name>VO2 Interval Set Builder</name>
+  <description>Interval container sample with derived ON/OFF reps</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.500" PowerHigh="0.750"/>
+    <SteadyState Duration="60" Power="1.050"/>
+    <FreeRide Duration="60" FlatRoad="1"/>
+    <SteadyState Duration="60" Power="1.050"/>
+    <FreeRide Duration="60" FlatRoad="1"/>
+    <SteadyState Duration="60" Power="1.050"/>
+    <FreeRide Duration="60" FlatRoad="1"/>
+    <Cooldown Duration="420" PowerLow="0.700" PowerHigh="0.450"/>
+  </workout>
+</workout_file>

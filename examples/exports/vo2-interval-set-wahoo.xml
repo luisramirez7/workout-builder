@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wahooWorkout>
+  <name>VO2 Interval Set Builder</name>
+  <segment type="warmup" seconds="600" targetPct="50" />
+  <segment type="interval_set" seconds="360" targetPct="105" />
+  <segment type="cooldown" seconds="420" targetPct="70" />
+</wahooWorkout>

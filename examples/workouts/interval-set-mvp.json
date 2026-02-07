@@ -1,0 +1,42 @@
+{
+  "id": "sample-cycling-interval-set-001",
+  "name": "VO2 Interval Set Builder",
+  "description": "Interval container sample with derived ON/OFF reps",
+  "author": "Workout Builder",
+  "tags": ["Intervals", "FTP"],
+  "sport": "cycling",
+  "workoutType": "cycling-structured",
+  "ftp": 260,
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "id": "warmup-a",
+      "type": "warmup",
+      "startTime": 0,
+      "duration": 600,
+      "target": { "metric": "power_pct_ftp", "start": 50, "end": 75 }
+    },
+    {
+      "id": "iset-a",
+      "type": "interval_set",
+      "startTime": 600,
+      "duration": 360,
+      "target": { "metric": "power_pct_ftp", "value": 105 },
+      "meta": {
+        "reps": 3,
+        "onDuration": 60,
+        "offDuration": 60,
+        "onTarget": 105,
+        "offTarget": 55
+      },
+      "label": "Intervals"
+    },
+    {
+      "id": "cool-a",
+      "type": "cooldown",
+      "startTime": 960,
+      "duration": 420,
+      "target": { "metric": "power_pct_ftp", "start": 70, "end": 45 }
+    }
+  ]
+}

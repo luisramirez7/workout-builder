@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Workout Builder Web",
+    "slug": "workout-builder-web",
+    "platforms": ["web"],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

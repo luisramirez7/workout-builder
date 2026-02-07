@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Workout Builder Mobile",
+    "slug": "workout-builder-mobile",
+    "scheme": "workoutbuilder",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@workout-builder/app",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@workout-builder/core": "0.1.0",
+    "@workout-builder/plugins-cycling-structured": "0.1.0",
+    "zustand": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*",
+    "react-native-svg": "*"
+  }
+}

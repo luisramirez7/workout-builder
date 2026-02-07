@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garminWorkout name="VO2 Interval Set Builder" sport="cycling">
+    <step order="1" type="warmup" duration="600" intensityPct="50" />
+    <step order="2" type="interval_set" duration="360" intensityPct="105" />
+    <step order="3" type="cooldown" duration="420" intensityPct="70" />
+</garminWorkout>

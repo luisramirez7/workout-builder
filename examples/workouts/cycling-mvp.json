@@ -1,0 +1,41 @@
+{
+  "id": "sample-cycling-001",
+  "name": "Threshold Builder",
+  "description": "Zwift-style builder sample workout",
+  "author": "Workout Builder",
+  "tags": ["Intervals", "FTP"],
+  "sport": "cycling",
+  "workoutType": "cycling-structured",
+  "ftp": 260,
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "id": "warmup-a",
+      "type": "warmup",
+      "startTime": 0,
+      "duration": 600,
+      "target": { "metric": "power_pct_ftp", "start": 50, "end": 75 }
+    },
+    {
+      "id": "steady-a",
+      "type": "interval_steady",
+      "startTime": 600,
+      "duration": 480,
+      "target": { "metric": "power_pct_ftp", "value": 95 }
+    },
+    {
+      "id": "ramp-a",
+      "type": "interval_ramp",
+      "startTime": 1080,
+      "duration": 240,
+      "target": { "metric": "power_pct_ftp", "start": 90, "end": 105 }
+    },
+    {
+      "id": "cool-a",
+      "type": "cooldown",
+      "startTime": 1320,
+      "duration": 420,
+      "target": { "metric": "power_pct_ftp", "start": 70, "end": 45 }
+    }
+  ]
+}

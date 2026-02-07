@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workout_file>
+  <author>Workout Builder</author>
+  <name>Threshold Builder</name>
+  <description>Zwift-style builder sample workout</description>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.500" PowerHigh="0.750"/>
+    <SteadyState Duration="480" Power="0.950"/>
+    <Ramp Duration="240" PowerLow="0.900" PowerHigh="1.050"/>
+    <Cooldown Duration="420" PowerLow="0.700" PowerHigh="0.450"/>
+  </workout>
+</workout_file>
